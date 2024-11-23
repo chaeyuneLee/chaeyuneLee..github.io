@@ -1,0 +1,68 @@
+body {background-color:cadetblue; 
+    color:black;
+   }
+   
+   @font-face {
+       font-family: 'TTHakgyoansimMulgyeolB';
+       src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_keris@1.0/TTHakgyoansimMulgyeolB.woff2') format('woff2');
+       font-weight: normal;
+       font-style: normal;
+   }
+   #h1 {
+   font-size: 60px;
+   font-family: 'TTHakgyoansimMulgyeolB';
+   }
+   
+   #h2 {
+       font-family: 'TTHakgyoansimMulgyeolB';
+       font-size: 30px;
+   
+   }
+
+   #h3 {
+    font-family: 'TTHakgyoansimMulgyeolB';
+    font-size: 20px;
+    color:white;
+}
+
+    #h4 {
+        font-family: 'TTHakgyoansimMulgyeolB';
+    font-size: 17px;
+    color:white;
+    }
+
+    #h5 {
+        font-family: 'TTHakgyoansimMulgyeolB';
+        font-size: 8px;
+        color:darkcyan
+
+    }
+   
+   #buttonstyle {
+       font-family: 'TTHakgyoansimMulgyeolB';
+       font-size: 10px; 
+   
+   }
+   
+   
+   @media screen and (max-width: 767px) {
+       #header .product_wrap .list_product li {
+           width: calx(50%)
+       }
+       body {
+           background-size: cover;
+           position: fixed;
+       }
+       section {
+           margin-top: 20vh;
+           margin-left: 10vw;
+           display: inline-block;
+       }
+   }
+   
+   .img_responsive{
+       width: 100%;
+       height: auto;
+   }
+   
+   #wrap {min-width: 320px}
