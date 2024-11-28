@@ -1,6 +1,7 @@
 body {background-color:rgb(148, 196, 173); 
     color:black;
     overflow-x: hidden;
+    overflow-y: auto;
     width: 100vw;
    }
 
