@@ -54,13 +54,12 @@ html{
         color:rgb(8, 107, 107)
 
     }
-#h6 {
+    #h6 {
         font-family: 'TTHakgyoansimMulgyeolB';
     font-size: 14px;
     color:white;
     margin-left: 20px;
     }
-
    
    #buttonstyle {
        font-family: 'TTHakgyoansimMulgyeolB';
@@ -97,7 +96,7 @@ html{
        }
        body {
            background-size: cover;
-        
+
        }
        section {
            margin-top: 20vh;
