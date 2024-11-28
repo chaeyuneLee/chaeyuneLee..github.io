@@ -7,6 +7,7 @@ body {background-color:rgb(148, 196, 173);
 
 html{
     overflow-x: hidden;
+    overflow-y: auto;
 }
    
    @font-face {
