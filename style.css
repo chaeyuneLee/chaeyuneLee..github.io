@@ -16,6 +16,13 @@ html{
        font-weight: normal;
        font-style: normal;
    }
+
+   @font-face {
+    font-family: 'STUNNING-Bd';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2410-2@1.0/STUNNING-Bd.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
    #h1 {
    font-size: 60px;
    font-family: 'TTHakgyoansimMulgyeolB';
@@ -55,10 +62,11 @@ html{
 
     }
     #h6 {
-        font-family: 'TTHakgyoansimMulgyeolB';
+        font-family: 'STUNNING-Bd';
     font-size: 14px;
     color:white;
     margin-left: 20px;
+    line-height: 1.7;
     }
    
    #buttonstyle {
@@ -111,3 +119,4 @@ html{
    }
    
    #wrap {min-width: 320px}
+   
